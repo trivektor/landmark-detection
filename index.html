@@ -2,12 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
     <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
-    <title></title>
+    <title>Location Recognizer</title>
   </head>
-  <body>
-    <input id="file" type="file" />
-    <div id="map" style="height: 600px"></div>
+  <body style="background: #F5F8FA">
+    <div id="navbar">
+      <div id="logo">WOC 2019</div>
+      <input id="file" type="file" />
+      <button id="file-btn">
+        <img width="50" src="https://img.icons8.com/ios-glyphs/100/000000/camera.png">
+      </button>
+    </div>
+    <div id="map"></div>
+    <div id="loading-indicator">
+      Analyzing That...
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

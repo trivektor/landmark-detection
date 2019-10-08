@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 1.1em;
+  height: 100%;
+  margin: 0;
+}
+
+#navbar {
+  position: absolute;
+  height: 39px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, .1);
+  z-index: 100;
+}
+
+#file {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 180px;
+  height: 25px;
+  opacity: 0;
+  z-index: 20;
+}
+
+#file-btn {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#logo {
+  font-weight: 500;
+  font-size: 1.9em;
+  color: #FF4B2B;
+  font-family: 'Luckiest Guy', cursive;
+  margin-top: 7px;
+}
+
+#loading-indicator {
+  visibility: hidden;
+  position: absolute;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+  width: 260px;
+  border: 1px solid #bbb;
+  background: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.3em;
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, .12);
+  z-index: 5000;
+}
